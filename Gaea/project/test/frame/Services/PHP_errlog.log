@@ -1,0 +1,84 @@
+SchedulerService ==> [2019-04-29 09:20:46] ==> Exception: redis set stMPass failed : ! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(85): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', '{"state":"stMPa...', true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(672): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(156): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 09:21:11] ==> Exception: redis set stMPass failed : ! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(85): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', '{"state":"stMPa...', true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(672): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(156): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 09:24:57] ==> Exception: redis set stMPass failed : ! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(85): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', '{"state":"stMPa...', true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(672): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 09:29:48] ==> Exception: redis set stMPass failed : ! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(85): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', '{"state":"stMPa...', true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(672): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 09:31:30] ==> Exception: redis set stMPass failed : ! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(85): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', '{"state":"stMPa...', true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(672): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 09:32:12] ==> Exception: redis set stMPass failed : ! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(85): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', '{"state":"stMPa...', true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(672): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 11:34:28] ==> Exception: redis set stMPass failed! in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\LocalStorage.php(84): throwException('redis set stMPa...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(504): LocalStorage->set('stMPass', Array, true)
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(468): Scheduler->createCountersignMap('stAllPass', 'stMPass')
+#3 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(666): Scheduler->checkCountersignState('stMPass', 'stAllPass')
+#4 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMPass', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#5 {main}SchedulerService ==> [2019-04-29 03:57:02] ==> Exception: not found uiid[query] in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(679): throwException('not found uiid[...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(817): Scheduler->getActionInfoForUIID('query')
+#2 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(130): Scheduler->__construct('\xE5\xB7\xA5\xE4\xBA\xBA', 'f8223470-26a8-9...', 'runflow_test', 'query', Array)
+#3 {main}SchedulerService ==> [2019-04-30 08:50:54] ==> Exception: 此节点不是会签节点！ in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(499): throwException('\xE6\xAD\xA4\xE8\x8A\x82\xE7\x82\xB9\xE4\xB8\x8D\xE6\x98\xAF...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(472): Scheduler->createCountersignMap('stFree', 'stMRefuse')
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(680): Scheduler->checkCountersignState('stMRefuse', 'stFree')
+#3 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMRefuse', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#4 {main}SchedulerService ==> [2019-04-30 08:51:05] ==> Exception: 此节点不是会签节点！ in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(499): throwException('\xE6\xAD\xA4\xE8\x8A\x82\xE7\x82\xB9\xE4\xB8\x8D\xE6\x98\xAF...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(472): Scheduler->createCountersignMap('stFree', 'stMRefuse')
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(680): Scheduler->checkCountersignState('stMRefuse', 'stFree')
+#3 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMRefuse', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#4 {main}SchedulerService ==> [2019-04-30 08:59:04] ==> Exception: 此节点不是会签节点！ in C:\xampp\htdocs\project\e9-web\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(499): throwException('\xE6\xAD\xA4\xE8\x8A\x82\xE7\x82\xB9\xE4\xB8\x8D\xE6\x98\xAF...')
+#1 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(472): Scheduler->createCountersignMap('stFree', 'stMRefuse')
+#2 C:\xampp\htdocs\project\e9-web\Services\Scheduler.php(680): Scheduler->checkCountersignState('stMRefuse', 'stFree')
+#3 C:\xampp\htdocs\project\e9-web\Services\SchedulerService.php(158): Scheduler->action('stMRefuse', '\xE8\xBF\x99\xE6\x98\xAF\xE4\xB8\x80\xE4\xB8\xAA\xE6\xB5\x8B...')
+#4 {main}SchedulerService ==> [2019-08-03 01:44:14] ==> Exception: not found uiid[startflow] in C:\xampp\htdocs\project\test\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\test\Services\Scheduler.php(730): throwException('not found uiid[...')
+#1 C:\xampp\htdocs\project\test\Services\Scheduler.php(868): Scheduler->getActionInfoForUIID('startflow')
+#2 C:\xampp\htdocs\project\test\Services\SchedulerService.php(75): Scheduler->__construct('\xE5\xB7\xA5\xE4\xBA\xBA', NULL, 'runflow_test', 'startflow', Array)
+#3 {main}SchedulerService ==> [2019-08-03 03:54:55] ==> Exception: cur state not found! in C:\xampp\htdocs\project\test\Services\throws.php:7
+Stack trace:
+#0 C:\xampp\htdocs\project\test\Services\Scheduler.php(745): throwException('cur state not f...')
+#1 C:\xampp\htdocs\project\test\Services\Scheduler.php(758): Scheduler->getActionInfo(NULL)
+#2 C:\xampp\htdocs\project\test\Services\Scheduler.php(800): Scheduler->roles(NULL)
+#3 C:\xampp\htdocs\project\test\Services\SchedulerService.php(76): Scheduler->getActionTasks(Array, NULL, '0', '50')
+#4 {main}

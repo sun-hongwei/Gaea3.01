@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/wh/DBConnection.java=UTF-8
+encoding//src/wh/DBPool.java=UTF-8
+encoding//src/wh/Recordset.java=UTF-8
+encoding//src/wh/SQLBuilder.java=UTF-8
+encoding/<project>=UTF-8
+encoding/src=UTF-8
+separateDerivedEncodings=true

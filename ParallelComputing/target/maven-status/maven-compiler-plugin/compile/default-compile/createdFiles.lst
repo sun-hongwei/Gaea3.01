@@ -1,0 +1,6 @@
+com\wh\parallel\computing\SimpleTask.class
+com\wh\parallel\computing\interfaces\IParallelComputingExecutor.class
+com\wh\parallel\computing\interfaces\ISimpleComputer.class
+com\wh\parallel\computing\SimpleAction.class
+com\wh\parallel\computing\ParallelComputingExecutor.class
+com\wh\parallel\computing\interfaces\ISimpleActionComputer.class

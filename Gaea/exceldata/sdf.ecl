@@ -1,0 +1,1 @@
+[{"mapTemplateFile":"X:\\JAVA\\UIEditor\\exceldata\\导出映射模板.xlsx","dataSheetName":"data","saveFile":"X:\\JAVA\\UIEditor\\exceldata\\abc.xlsx","dataTemplateFile":"X:\\JAVA\\UIEditor\\exceldata\\导出数据模板.xlsx","datasets":{"data":{"name":"data","datasetId":"测试数据x","url":""},"master":{"name":"master","datasetId":"测试All","url":""}},"configSheetName":"config"}]
