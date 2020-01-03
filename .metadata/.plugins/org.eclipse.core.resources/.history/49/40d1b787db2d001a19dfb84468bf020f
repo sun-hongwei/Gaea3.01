@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.wh</groupId>
+	<artifactId>GaeaExcelPlugin</artifactId>
+	<version>3.0</version>
+	<packaging>jar</packaging>
+	<name>GaeaExcelPlugin</name>
+	<!-- maven属性的使用 -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<plugin.version>3.5.1</plugin.version>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${plugin.version}</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+			<!-- 把jar包拷贝到指定目录位置 -->
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy</id>
+						<phase>package</phase>
+						<configuration>
+							<tasks>
+								<copy todir="${user.dir}/Gaea3.0/plugins">
+									<fileset dir="${project.build.directory}">
+										<include
+											name="${project.artifactId}-${project.version}.jar" />
+									</fileset>
+								</copy>
+								<copy todir="${user.dir}/Gaea/plugins">
+									<fileset dir="${project.build.directory}">
+										<include
+											name="${project.artifactId}-${project.version}.jar" />
+									</fileset>
+								</copy>
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.11</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>Tools</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>SwingTools</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaInterface</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>ExceIX</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaPlugin</artifactId>
+			<version>3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.wh</groupId>
+			<artifactId>GaeaDataSourcePlugin</artifactId>
+			<version>3.0</version>
+		</dependency>
+	</dependencies>
+
+</project>

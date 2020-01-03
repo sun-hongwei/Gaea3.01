@@ -1,0 +1,1 @@
+java -jar .\Gaea-3.0.jar -XX:+UseG1GC -XX:-HeapDumpOnOutOfMemoryError -XX:-PrintClassHistogram -XX:-PrintCommandLineFlags -XX:-PrintCompilation -XX:-PrintGC -XX:-PrintGCDetails -XX:-PrintGCTimeStamps -XX:-OmitStackTraceInFastThrow 

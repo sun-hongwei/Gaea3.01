@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DeBugger</title>
+    <style>
+        #showbox {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #000;
+        }
+
+        #showbox div {
+            border: 2px solid #eb4b0bbd;
+            width:100%;
+            height:200px;
+            overflow-y:auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="showbox">
+    </div>
+    <script>
+        (function () {
+            var olddata = "";
+            setInterval(function () {
+                var data = localStorage.getItem("req");
+                if (data == null || data == "") {
+                    return false;
+                } else {
+                    var body = document.getElementById("showbox");
+                    var msg = document.createElement("div");
+                    data = JSON.parse(data);
+                    var newstr = "";
+                    for (var i in data) {
+                        if (typeof (data[i]) != "object") {
+                            newstr += i + data[i] + "<br/>";
+                        } else {
+                            newstr += i + JSON.stringify(data[i]) + "<br/>";
+                        }
+                    }
+                    msg.innerHTML ="<pre>"+newstr+"</pre>";
+                    body.appendChild(msg);
+                    localStorage.setItem("req", "");
+                }
+            }, 1000);
+        })()
+    </script>
+</body>
+
+</html>

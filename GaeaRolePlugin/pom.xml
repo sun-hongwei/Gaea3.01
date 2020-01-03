@@ -34,13 +34,13 @@
 						<phase>package</phase>
 						<configuration>
 							<tasks>
-								<copy todir="X:/JAVA64/Gaea3.0/plugins">
+								<copy todir="${basedir}/../Gaea3.0/plugins">
 									<fileset dir="${project.build.directory}">
 										<include
 											name="${project.artifactId}-${project.version}.jar" />
 									</fileset>
 								</copy>
-								<copy todir="X:/JAVA64/Gaea/plugins">
+								<copy todir="${basedir}/../Gaea/plugins">
 									<fileset dir="${project.build.directory}">
 										<include
 											name="${project.artifactId}-${project.version}.jar" />
